@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 200;
+    list-style: none;
+    border-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+
+.wrapper{
+    min-height: 100vh;
+    height: auto;
+    max-width: 1366px;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-bottom: 30px;
+
+    header{
+        width: 100%;
+        height: 56px;
+        background-color: #fff;
+
+        .container {
+            width: 95%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo{
+                
+                height: 100%;
+                display: flex;
+                align-items: center;
+
+                .logo-container{
+                    width: 40px;
+                    height: 40px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+
+            .nav-items{
+                width: 30%;
+                height: 100%;
+                line-height: 3;
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    li{
+                        a{
+                            font-family: noto serif;
+                            font-weight: bold;
+                            color: #000;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+
+           
+        }
+        
+    }
+
+    .main-area{
+        width: 100%;
+        height: 25em;
+        background-color: #ffffff;
+        padding-top: 10px;
+        background-image: url(../img/main-background.png);
+        background-position: 90% 35%;
+        background-repeat: no-repeat;
+
+
+        .main-text{
+            position: absolute;
+            top: 25%;
+            left: 10%;
+
+            .first {
+                p{
+                    font-size: 3rem;
+                    font-family: serif;
+                }
+            }
+
+            .seconds{
+                margin-left: 20px;
+                p{
+                    font-family: serif;
+                    font-size: 3.5rem;
+                    font-weight: bold;
+                }
+            }
+        }
+        
+    }
+
+    .skill-area{
+        width: 100%;
+        min-height: 20em;
+        height: auto;
+        background-color: #fff;
+        .skill-header{
+            width: 95%;
+            height: 2em;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            display: flex;
+            align-items: flex-end;
+            padding-top: 5px;
+
+            .skill-title-container{
+                height: 100%;
+                width: 15%;
+                display: flex;
+                align-items: center;
+                h2 {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    font-family: boogaloo;
+                    float: left;
+                }
+            }
+            .line-draw{
+                width: 100%;
+                float: right;
+                height: 2px;
+                background-color: #000000;
+            }
+        }
+
+        .skill-container{
+            width: 100%;
+        }
+    }
+}
