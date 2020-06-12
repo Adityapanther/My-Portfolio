@@ -164,5 +164,37 @@
 
 .wrapper .skill-area .skill-container {
   width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.wrapper .skill-area .skill-container .skill-area {
+  width: 95%;
+  min-height: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.wrapper .skill-area .skill-container .skill-area .skill {
+  width: 15em;
+  margin: 1em;
+}
+
+.wrapper .skill-area .skill-container .skill-area .skill h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: noto serif;
 }
 /*# sourceMappingURL=main.css.map */

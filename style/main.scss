@@ -144,6 +144,26 @@
 
         .skill-container{
             width: 100%;
+            height: 100%;
+            padding-top: 20px;
+            .skill-area{
+                width: 95%;
+                min-height: 50%;
+                margin: 0 auto;
+                display: flex;
+                align-items: stretch;
+                justify-content: space-between;
+                flex-flow: row wrap;
+               .skill{
+                   width: 15em;
+                   margin: 1em;
+                   h3{
+                       font-size: 1.2rem;
+                       font-weight: 600;
+                       font-family: noto serif;
+                   }
+               }
+            }
         }
     }
 }
