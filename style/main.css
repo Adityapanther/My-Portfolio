@@ -15,14 +15,13 @@
   height: auto;
   max-width: 1366px;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   margin-bottom: 30px;
 }
 
 .wrapper header {
   width: 100%;
   height: 56px;
-  background-color: #fff;
 }
 
 .wrapper header .container {
@@ -85,7 +84,6 @@
 .wrapper .main-area {
   width: 100%;
   height: 25em;
-  background-color: #ffffff;
   padding-top: 10px;
   background-image: url(../img/main-background.png);
   background-position: 90% 35%;
@@ -117,7 +115,6 @@
   width: 100%;
   min-height: 20em;
   height: auto;
-  background-color: #fff;
 }
 
 .wrapper .skill-area .skill-header {
@@ -196,5 +193,51 @@
   font-size: 1.2rem;
   font-weight: 600;
   font-family: noto serif;
+}
+
+.wrapper .project-section {
+  width: 95%;
+  min-height: 15em;
+  margin: 0 auto;
+  padding-top: 1em;
+  background-color: #fff;
+}
+
+.wrapper .project-section .project-header {
+  width: 100%;
+  height: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.wrapper .project-section .project-header .line-draw {
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+
+.wrapper .project-section .project-header h2 {
+  margin: 0 5px;
+  font-family: patua one;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.wrapper .project-section .project-container {
+  width: 100%;
+  min-height: 15em;
+  padding-top: 2em;
 }
 /*# sourceMappingURL=main.css.map */
