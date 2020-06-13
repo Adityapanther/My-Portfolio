@@ -1,4 +1,4 @@
-var jsonD = [
+const jsonD = [
     {
         "id": 1,
         "name": "Shoes Store",
