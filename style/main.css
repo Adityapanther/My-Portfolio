@@ -290,4 +290,66 @@
 .wrapper .project-section .project-container .proj-item :hover {
   cursor: pointer;
 }
+
+.wrapper .social-section {
+  width: 100%;
+  height: 8em;
+  margin-top: 1em;
+  background: linear-gradient(75deg, #cecece, #000000);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.wrapper .social-section .social-circle {
+  width: 5em;
+  height: 5em;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.wrapper .social-section .social-circle:hover {
+  -webkit-box-shadow: 1px 1px 3px #974343;
+          box-shadow: 1px 1px 3px #974343;
+}
+
+.wrapper .social-section .facebook {
+  background-image: url(../img/social.png);
+  background-position: -39px -39px;
+  background-repeat: no-repeat;
+}
+
+.wrapper .social-section .github {
+  background-image: url(../img/social.png);
+  background-position: -279px -519px;
+  background-repeat: no-repeat;
+}
+
+.wrapper .social-section .stackoverflow {
+  background-image: url(../img/social.png);
+  background-position: -159px -519px;
+  background-repeat: no-repeat;
+}
+
+.wrapper .social-section .linkedin {
+  background-image: url(../img/social.png);
+  background-position: -759px -39px;
+  background-repeat: no-repeat;
+}
+
+.wrapper .social-section .twitter {
+  background-image: url(../img/social.png);
+  background-position: -159px -39px;
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=main.css.map */

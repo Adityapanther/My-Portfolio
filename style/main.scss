@@ -242,4 +242,57 @@
             }
         }
     }
+
+    .social-section{
+        width: 100%;
+        height: 8em;
+        margin-top: 1em;
+        background: linear-gradient(75deg,#cecece, #000000);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: row nowrap;
+
+        .social-circle{
+            width: 5em;
+            height: 5em;
+            background-color: #fff;
+            border-radius: 50%;
+            
+        }
+
+        .social-circle:hover{
+            box-shadow: 1px 1px 3px #974343;
+        }
+
+        .facebook{
+            background-image: url(../img/social.png);
+            background-position: -39px -39px;
+            background-repeat: no-repeat;
+        }
+
+        .github{
+            background-image: url(../img/social.png);
+            background-position: -279px -519px;
+            background-repeat: no-repeat;
+        }
+
+        .stackoverflow{
+            background-image: url(../img/social.png);
+            background-position: -159px -519px;
+            background-repeat: no-repeat;
+        }
+
+        .linkedin{
+            background-image: url(../img/social.png);
+            background-position: -759px -39px;
+            background-repeat: no-repeat;
+        }
+
+        .twitter{
+            background-image: url(../img/social.png);
+            background-position: -159px -39px;
+            background-repeat: no-repeat;
+        }
+    }
 }
