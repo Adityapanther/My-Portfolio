@@ -286,4 +286,8 @@
   font-size: 1rem;
   font-weight: 500;
 }
+
+.wrapper .project-section .project-container .proj-item :hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=main.css.map */
