@@ -293,9 +293,9 @@
 
 .wrapper .social-section {
   width: 100%;
-  height: 8em;
+  height: 10em;
   margin-top: 1em;
-  background: linear-gradient(75deg, #cecece, #000000);
+  background: linear-gradient(75deg, #cecece, #686868, #000000);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,8 +319,7 @@
 }
 
 .wrapper .social-section .social-circle:hover {
-  -webkit-box-shadow: 1px 1px 3px #974343;
-          box-shadow: 1px 1px 3px #974343;
+  border: 5px solid #ffffff;
 }
 
 .wrapper .social-section .facebook {
