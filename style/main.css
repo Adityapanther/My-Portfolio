@@ -16,7 +16,7 @@
   max-width: 1366px;
   width: 100%;
   background-color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .wrapper header {
@@ -351,5 +351,58 @@
   background-image: url(../img/social.png);
   background-position: -159px -39px;
   background-repeat: no-repeat;
+}
+
+.wrapper .about-section {
+  width: 100%;
+  min-height: 15em;
+  padding: 3em;
+  background-color: #f9f9f9;
+}
+
+.wrapper .about-section .about-heading {
+  width: 100%;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  font-family: patua one;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.wrapper .about-section .about-cont {
+  width: 70%;
+  min-height: 10em;
+  margin: 3em auto 0 auto;
+}
+
+.wrapper .about-section .about-cont p {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  font-family: noto serif;
+  letter-spacing: 0.5px;
+  color: #2b2b2b;
+}
+
+.wrapper footer {
+  width: 100%;
+  height: 3.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #000000;
+}
+
+.wrapper footer p {
+  font-family: noto serif;
+  font-size: 1rem;
+  font-weight: 200;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
