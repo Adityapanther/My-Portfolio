@@ -316,6 +316,7 @@
   height: 5em;
   background-color: #fff;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .wrapper .social-section .social-circle:hover {
