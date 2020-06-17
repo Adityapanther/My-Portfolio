@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px){
+    .wrapper{
+        max-width: 600px;
+
+        header{
+            .container{
+                .nav-items{
+                    display: none;
+                }
+            }
+        }
+
+        .project-section{
+
+            .project-container{
+                .proj-items{
+                    margin: 5px 50px;
+                }
+            }
+        }
+    }
+}

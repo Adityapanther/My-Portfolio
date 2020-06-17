@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=respo.css.map */
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    max-width: 600px;
+  }
+  .wrapper header .container .nav-items {
+    display: none;
+  }
+  .wrapper .project-section .project-container .proj-items {
+    margin: 5px 50px;
+  }
+}
+/*# sourceMappingURL=respo.css.map */
