@@ -68,6 +68,11 @@
                 }
             }
 
+            .hamber-icon{
+                display: none;
+                margin-right: 1em;
+            }
+
            
         }
         
@@ -110,6 +115,7 @@
         width: 100%;
         min-height: 20em;
         height: auto;
+        overflow: hidden;
         .skill-header{
             width: 95%;
             height: 2em;

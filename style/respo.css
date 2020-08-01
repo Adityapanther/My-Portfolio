@@ -1,3 +1,39 @@
+@media only screen and (max-width: 1440px) {
+  .wrapper {
+    max-width: 1440px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+  .wrapper header .container .nav-items {
+    display: none;
+  }
+  .wrapper header .container .hamber-icon {
+    display: block !important;
+  }
+  .wrapper .main-area .main-text {
+    top: 40%;
+    left: 5%;
+  }
+  .wrapper .main-area .main-text .first p {
+    font-size: 2rem;
+  }
+  .wrapper .main-area .main-text .seconds p {
+    font-size: 3rem;
+  }
+  .wrapper .skill-area .skill-header .skill-title-container {
+    width: 25%;
+  }
+  .wrapper .project-section .project-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .wrapper {
     max-width: 600px;

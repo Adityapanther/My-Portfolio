@@ -81,6 +81,11 @@
   font-size: 1rem;
 }
 
+.wrapper header .container .hamber-icon {
+  display: none;
+  margin-right: 1em;
+}
+
 .wrapper .main-area {
   width: 100%;
   height: 25em;
@@ -115,6 +120,7 @@
   width: 100%;
   min-height: 20em;
   height: auto;
+  overflow: hidden;
 }
 
 .wrapper .skill-area .skill-header {
