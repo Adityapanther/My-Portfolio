@@ -96,7 +96,7 @@
 }
 
 .wrapper .main-area .main-text {
-  position: absolute;
+  position: relative;
   top: 25%;
   left: 10%;
 }
