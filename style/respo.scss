@@ -55,6 +55,45 @@
 }
 
 @media only screen and (max-width: 768px){
+
+    .wrapper{
+        max-width: 768px;
+
+        .main-area {
+            .main-text {
+                top: 60%;
+                left: 5%;
+
+                .first {
+                    p {
+                        font-size: 2rem;
+                    }
+                }
+
+                .seconds {
+                    margin-left: 0;
+                    p {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+
+         .skill-area {
+             .skill-header {
+                 .skill-title-container {
+                     width: 35%;
+                 }
+             }
+
+             .skill-container{
+                 .skill-area{
+                     justify-content: center;
+                 }
+             }
+         }
+
+    }
     
 }
 

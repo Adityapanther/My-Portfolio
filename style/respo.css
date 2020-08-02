@@ -34,6 +34,33 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 768px;
+  }
+  .wrapper .main-area .main-text {
+    top: 60%;
+    left: 5%;
+  }
+  .wrapper .main-area .main-text .first p {
+    font-size: 2rem;
+  }
+  .wrapper .main-area .main-text .seconds {
+    margin-left: 0;
+  }
+  .wrapper .main-area .main-text .seconds p {
+    font-size: 2.5rem;
+  }
+  .wrapper .skill-area .skill-header .skill-title-container {
+    width: 35%;
+  }
+  .wrapper .skill-area .skill-container .skill-area {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .wrapper {
     max-width: 600px;
