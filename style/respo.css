@@ -55,13 +55,12 @@
     width: 35%;
   }
   .wrapper .skill-area .skill-container .skill-area {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 425px) {
   .wrapper {
     max-width: 600px;
   }

@@ -154,13 +154,12 @@
                 width: 95%;
                 min-height: 50%;
                 margin: 0 auto;
-                display: flex;
-                align-items: stretch;
-                justify-content: space-between;
-                flex-flow: row wrap;
+                display: grid;
+                grid-row-gap: 40px;
+                grid-column-gap: 20px;
+                grid-template-columns: repeat(6, 1fr);
                .skill{
-                   width: 15em;
-                   margin: 1em;
+                   text-align: center;
                    h3{
                        font-size: 1.2rem;
                        font-weight: 600;
