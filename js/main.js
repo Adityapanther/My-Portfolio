@@ -1,5 +1,6 @@
-window.addEventListener('scroll', ()=>{
-    const e =  window.scrollY
-    console.log(e);
+// 
+
+window.addEventListener("load", (e)=>{
+    console.log("Loaded");
     
 })
