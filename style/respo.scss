@@ -21,6 +21,7 @@
         }
         .main-area{
             .main-text{
+                width: 55%;
                 top: 40%;
                 left: 5%;
 
@@ -62,8 +63,9 @@
 
         .main-area {
             .main-text {
-                top: 60%;
-                left: 5%;
+                width: 85%;
+                
+                left: 15%;
 
                 .first {
                     p {
@@ -74,7 +76,7 @@
                 .seconds {
                     margin-left: 0;
                     p {
-                        font-size: 2.5rem;
+                        font-size: 2.3rem;
                     }
                 }
             }
@@ -83,7 +85,10 @@
          .skill-area {
              .skill-header {
                  .skill-title-container {
-                     width: 35%;
+                     width: 55%;
+                     h2{
+                         font-size: 1.2rem;
+                     }
                  }
              }
 
@@ -92,6 +97,10 @@
                      grid-template-columns: repeat(3, 1fr);
                  }
              }
+         }
+
+         .about-section{
+             padding: 0px 0px 1em 0px;
          }
 
     }
@@ -103,7 +112,9 @@
         max-width: 425px;
         .main-area{
             .main-text{
-                top: 70%;
+                width: 100%;
+                top: 35%;
+                left: 15px;
             }
         }
 
