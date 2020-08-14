@@ -11,7 +11,7 @@
   .wrapper .main-area .main-text {
     width: 55%;
     top: 40%;
-    left: 5%;
+    left: 15%;
   }
   .wrapper .main-area .main-text .first p {
     font-size: 2rem;
@@ -21,11 +21,6 @@
   }
   .wrapper .skill-area .skill-header .skill-title-container {
     width: 25%;
-  }
-  .wrapper .project-section .project-container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
@@ -56,6 +51,9 @@
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
+  .wrapper .project-section .project-container .project-item .project-item-title h1 {
+    font-size: 2vw;
+  }
   .wrapper .about-section {
     padding: 0px 0px 1em 0px;
   }
@@ -67,8 +65,8 @@
   }
   .wrapper .main-area .main-text {
     width: 100%;
-    top: 35%;
-    left: 15px;
+    top: 60%;
+    left: 15%;
   }
   .wrapper .skill-area .skill-header .skill-title-container {
     width: 80%;
@@ -76,9 +74,6 @@
   .wrapper .skill-area .skill-container .skill-area {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-  }
-  .wrapper .project-section .project-container .proj-item {
-    width: 16em;
   }
   .wrapper .social-section {
     display: -ms-grid;
@@ -88,6 +83,19 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 4em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .wrapper .main-area .main-text {
+    top: 75%;
+    left: 10%;
+  }
+  .wrapper .main-area .main-text .seconds p {
+    font-size: 2rem;
+  }
+  .wrapper .project-section .project-container .project-item .project-item-title h1 {
+    font-size: 5vw;
   }
 }
 /*# sourceMappingURL=respo.css.map */

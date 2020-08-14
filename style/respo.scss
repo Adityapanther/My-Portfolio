@@ -23,7 +23,7 @@
             .main-text{
                 width: 55%;
                 top: 40%;
-                left: 5%;
+                left: 15%;
 
                 .first{
                     p{
@@ -46,11 +46,6 @@
             }
         }
 
-        .project-section{
-            .project-container{
-                justify-content: center;
-            }
-        }
 
 
     }
@@ -99,6 +94,18 @@
              }
          }
 
+         .project-section {
+             .project-container {
+                 .project-item {
+                     .project-item-title {
+                         h1 {
+                             font-size: 2vw;
+                         }
+                     }
+                 }
+             }
+         }
+
          .about-section{
              padding: 0px 0px 1em 0px;
          }
@@ -113,8 +120,8 @@
         .main-area{
             .main-text{
                 width: 100%;
-                top: 35%;
-                left: 15px;
+                top: 60%;
+                left: 15%;
             }
         }
 
@@ -132,20 +139,42 @@
             }
         }
 
-        .project-section{
-            .project-container{
-                .proj-item{
-                    width: 16em;
-                }
-            }
-        }
-
         .social-section{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             padding-top: 20px;
             padding-bottom: 20px;
             padding-left: 4em;
+        }
+    }
+}
+
+
+@media only screen and(max-width:375px){
+    .wrapper{
+        .main-area {
+            .main-text {
+                top: 75%;
+                left: 10%;
+
+                .seconds{
+                    p{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+
+        .project-section {
+            .project-container {
+                .project-item {
+                    .project-item-title {
+                        h1 {
+                            font-size: 5vw;
+                        }
+                    }
+                }
+            }
         }
     }
 }
