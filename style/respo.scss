@@ -46,6 +46,12 @@
             }
         }
 
+        .project-section{
+            .project-container{
+                grid-template-columns: repeat(4, minmax(150px, 1fr));
+            }
+        }
+
 
 
     }
@@ -96,6 +102,7 @@
 
          .project-section {
              .project-container {
+                 grid-template-columns: repeat(3, minmax(150px, 1fr));
                  .project-item {
                      .project-item-title {
                          h1 {
@@ -139,6 +146,12 @@
             }
         }
 
+        .project-section{
+            .project-container{
+                grid-template-columns: repeat(2, minmax(150px, 1fr));
+            }
+        }
+
         .social-section{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -167,6 +180,7 @@
 
         .project-section {
             .project-container {
+                grid-template-columns: repeat(1, minmax(200px, 1fr));
                 .project-item {
                     .project-item-title {
                         h1 {
