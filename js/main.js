@@ -11,7 +11,7 @@ window.addEventListener('load', ()=>{
 
 function loadProjectData(){
     workData.map(data => {
-        addDataToProjectContainer(data)
+        addTemplateDataToContainer(data)
 
     })
 }
@@ -19,7 +19,7 @@ function loadProjectData(){
 console.log(window.location.pathname+ "img");
 
 
-function addDataToProjectContainer(data){
+function addTemplateDataToContainer(data){
 
     var dom = `<div class="project-item" id="${data.id}">
     <a href="${data.webUrl}">
