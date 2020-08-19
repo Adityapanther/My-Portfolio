@@ -1,12 +1,30 @@
 var projectItemsContainer = document.getElementsByClassName('project-container')[0];
+var skillArea = document.getElementsByClassName('skill-area')[1];
 var workData = myDb.workList
 var skillData = myDb.skillList
 
 
 
 window.addEventListener('load', ()=>{
+    loadsKilldata()
     loadProjectData()
 })
+
+function loadsKilldata(){
+    skillData.map(data =>{
+        addSkillDataToTemplate(data)
+    })
+}
+
+
+function addSkillDataToTemplate(data){
+var dom = `<div class="skill id="${data.id}">
+                        <h3>${data.skill_title}</h3><!--h3-->
+                    </div>`
+    skillArea.innerHTML += dom
+}
+
+
 
 
 function loadProjectData(){
@@ -16,7 +34,7 @@ function loadProjectData(){
     })
 }
 
-console.log(window.location.pathname+ "img");
+
 
 
 function addTemplateDataToContainer(data){
